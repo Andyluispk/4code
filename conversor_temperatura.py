@@ -1,5 +1,5 @@
 while True:
-        print("\n****Conversor de Temperatura****\n")
+        print("\n❄️🔥Conversor de Temperatura🔥❄️\n")
         print("1 - Celsius para Fahrenheit")
         print("2 - Celsius para Kelvin")
         print("3 - Fahrenheit para Celsius")
@@ -13,7 +13,7 @@ while True:
         if opcao == 7:
             break
         elif opcao < 1 or opcao > 7:
-            print("\nErro: Opção inválida! Escolha um número entre 1 e 7.")
+            print("\n⛔Erro: Opção inválida! Escolha um número entre 1 e 7.")
             continue
 
         temperatura = float(input("\nDigite a temperatura: "))
